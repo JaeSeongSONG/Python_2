@@ -1,0 +1,53 @@
+- conda 가상환경 만들기
+
+# 1. nltk 라는 이름의 가상환경 생성
+
+conda create -n nltk python=3.9
+
+# 2. conda env list로 확인
+
+# 3. conda 버전 update
+
+conda update conda
+
+# 4. nltk 가상환경으로 들어가기
+
+conda activate nltk 
+
+# 5. pip 라이브러리 최신버전으로 upgrade
+
+- 둘 중 하나로 실행
+pip install --upgrade pip
+python -m pip install --upgrade pip
+
+# 6. 기본 라이브러리 설치하기
+
+pip install ipython jupyter matplotlib pandas sklearn xlrd seaborn
+
+# 7. JPype1 및 konlpy, wordcloud 각각 설치하기
+
+pip install JPype1
+pip install konlpy
+pip install wordcloud (conda install -c conda-forge wordcloud): conda-forge는 버전을 자동으로 맞춰서 install
+
+# 8. nltk(라이브러리) 설치하기
+
+conda install -c conda-forge nltk
+
+# 9. nltk 다운로드 하기
+
+nltk.download()
+
+# 10. 탭 메뉴에서 All Packages 선택
+
+# 11. 왼쪽 메뉴에서 punkt, stopwords 클릭 후 설치
+
+# 12. exit()입력 후 python 빠져 나오고 jupyter notebook 입력 후 실행
+
+
+
+
+
+
+
+
